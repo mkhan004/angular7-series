@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
-import { Ng7CommonComponent } from './ng7-common.component';
 
 @NgModule({
-  declarations: [Ng7CommonComponent],
+  declarations: [],
   imports: [
   ],
-  exports: [Ng7CommonComponent]
+  exports: []
 })
 export class Ng7CommonModule { }
