@@ -1,5 +1,5 @@
 {
-  "name": "ng7-common",
+  "name": "@ng7/common",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^7.0.0",
