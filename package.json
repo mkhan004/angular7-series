@@ -9,7 +9,9 @@
     "home:build": "ng build home --prod",
     "home:client": "ng serve home -o --port 3000",
     "profile:build": "ng build profile --prod",
-    "profile:client": "ng serve profile -o --port 3100"
+    "profile:client": "ng serve profile -o --port 3100",
+    "ng7-common:build": "ng build ng7-common && npm i dist/ng7-common --save-optional",
+    "library:build": "npm run ng7-common:build"
   },
   "private": true,
   "dependencies": {
