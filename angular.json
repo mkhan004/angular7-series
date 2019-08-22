@@ -160,6 +160,7 @@
               "projects/profile/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/profile/src/styles.scss"
             ],
             "scripts": []
@@ -216,6 +217,7 @@
             "tsConfig": "projects/profile/tsconfig.spec.json",
             "karmaConfig": "projects/profile/karma.conf.js",
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/profile/src/styles.scss"
             ],
             "scripts": [],
