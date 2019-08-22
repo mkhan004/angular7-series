@@ -1,12 +1,8 @@
 import { NgModule } from '@angular/core';
-import { Ng8MaterialComponent } from './ng8-material.component';
-
-
 
 @NgModule({
-  declarations: [Ng8MaterialComponent],
-  imports: [
-  ],
-  exports: [Ng8MaterialComponent]
+  declarations: [],
+  imports: [],
+  exports: []
 })
-export class Ng8MaterialModule { }
+export class Ng8MaterialModule {}
