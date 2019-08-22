@@ -304,6 +304,41 @@
           }
         }
       }
+    },
+    "ng8-material": {
+      "projectType": "library",
+      "root": "projects/ng8-material",
+      "sourceRoot": "projects/ng8-material/src",
+      "prefix": "ng8-material",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng8-material/tsconfig.lib.json",
+            "project": "projects/ng8-material/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng8-material/src/test.ts",
+            "tsConfig": "projects/ng8-material/tsconfig.spec.json",
+            "karmaConfig": "projects/ng8-material/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng8-material/tsconfig.lib.json",
+              "projects/ng8-material/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "home"
