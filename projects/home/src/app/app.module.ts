@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 // library
 import { Ng7CommonModule } from '@ng7/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Ng7CommonModule } from '@ng7/common';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    Ng7CommonModule
+    Ng7CommonModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
