@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button>
+      <img
+        alt="angular"
+        src="https://material.angular.io/assets/img/homepage/angular-white-transparent.svg"
+      />
+    </button>
+    <span>angular7-series</span> <span class="menu-spacer"></span>
+
+    <button mat-button [matMenuTriggerFor]="belowMenu">About Us</button>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+      <button mat-menu-item>Project Plan</button>
+      <button mat-menu-item>Current Progress</button>
+    </mat-menu>
+
+    <button mat-button>Sign In</button>
+    <button mat-button>Sign Up</button>
+  </mat-toolbar-row>
+</mat-toolbar>
