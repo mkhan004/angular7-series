@@ -11,7 +11,8 @@
     "profile:build": "ng build profile --prod",
     "profile:client": "ng serve profile -o --port 3100",
     "ng7-common:build": "ng build ng7-common && npm i dist/ng7-common --save-optional",
-    "library:build": "npm run ng7-common:build"
+    "ng8-profile:build": "ng build ng8-material && npm i dist/ng8-material --save-optional",
+    "library:build": "npm run ng7-common:build && npm run ng8-profile:build"
   },
   "private": true,
   "dependencies": {
@@ -57,6 +58,7 @@
     "typescript": "~3.4.5"
   },
   "optionalDependencies": {
-    "@ng7/common": "file:dist/ng7-common"
+    "@ng7/common": "file:dist/ng7-common",
+    "@ng8/material": "file:dist/ng8-material"
   }
 }
