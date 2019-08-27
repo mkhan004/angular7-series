@@ -20,4 +20,4 @@ Run `npm run profile:client` to start a dev server for `profile` application. Na
 
 ## [Angular 8 Series Part-3: Upgrade to Angular 8](https://medium.com/better-programming/angular-8-series-part-3-upgrade-to-angular-8-c08745131cb6)
 
-## [Angular 8 Series Part 4: Add Angular Material]()
+## [Angular 8 Series Part 4: Add Angular Material](https://medium.com/better-programming/angular-8-series-part-4-add-angular-material-6501e91041d8)
