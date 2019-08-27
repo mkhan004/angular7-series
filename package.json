@@ -11,20 +11,25 @@
     "profile:build": "ng build profile --prod",
     "profile:client": "ng serve profile -o --port 3100",
     "ng7-common:build": "ng build ng7-common && npm i dist/ng7-common --save-optional",
-    "library:build": "npm run ng7-common:build"
+    "ng8-material:build": "ng build ng8-material && npm i dist/ng8-material --save-optional",
+    "library:build": "npm run ng7-common:build && npm run ng8-material:build"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.1.2",
+    "@angular/cdk": "~8.1.3",
     "@angular/common": "~8.1.2",
     "@angular/compiler": "~8.1.2",
     "@angular/core": "~8.1.2",
     "@angular/forms": "~8.1.2",
+    "@angular/material": "^8.1.3",
     "@angular/platform-browser": "~8.1.2",
     "@angular/platform-browser-dynamic": "~8.1.2",
     "@angular/router": "~8.1.2",
     "core-js": "^2.5.4",
+    "hammerjs": "^2.0.8",
     "rxjs": "~6.5.2",
+    "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
@@ -53,6 +58,7 @@
     "typescript": "~3.4.5"
   },
   "optionalDependencies": {
-    "@ng7/common": "file:dist/ng7-common"
+    "@ng7/common": "file:dist/ng7-common",
+    "@ng8/material": "file:dist/ng8-material"
   }
 }
